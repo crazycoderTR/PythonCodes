@@ -1,0 +1,68 @@
+﻿Map Fonksiyonu
+
+---map() fonksiyonu ilk parametre olarak bir tane fonksiyon objesi alır. (Fonksiyonlar da birer obje olduğu için başka bir fonksiyon gönderilebilir.) 2. parametre olarak da bir tane iterasyon yapılacak veri tipi alarak, gönderilen fonksiyonu her bir eleman üzerinde uygulayarak sonuçları bir map objesi olarak döner.
+
+
+Reduce Fonksiyonu
+
+---reduce() fonksiyonu değer olarak aldığı fonksiyonu soldan başlayarak listenin ilk 2 elemanına uygular ve daha sonra çıkan sonucu listenin 3. elemanına uygular ve bu şekilde devam ederek liste bitince bir tane değer döner.
+
+
+Filter Fonksiyonu
+
+---filter() fonksiyonu birinci parametre olarak mutlaka mantıksal değer dönen (True, False) bir fonksiyon alır ve liste gibi veritiplerinin her bir elemanına bu fonksiyonunu uygular. filter sadece True sonuç çıkaran değerleri alarak bir tane filter objesi döner.
+
+
+Zip Fonksiyonu
+
+---zip() fonksiyonu parametre olarak aldığı listeleri gruplamaya yarayan bir fonksiyondur.
+
+
+Enumerate Fonksiyonu
+
+---enumerate() fonksiyonu parametre olarak aldığı listenin ögelerini indeks numaralarıyla birlikte bize demet olarak geri dönderir.
+
+
+All Fonksiyonu
+
+---all() fonksiyonu bütün değerler True ise True, en az bir değer False ise False sonuç döndürür.
+
+
+Any Fonksiyonu
+
+---any() fonksiyonu bütün değerler False ise False, en az bir değer True ise True sonuç döndürür.
+
+
+Bin Fonksiynu
+
+---bin() fonksiyonu parametre olarak aldığı değeri onluk tabandan ikilik tabana çevirir.
+
+Hex Fonksiyonu
+
+---hex() fonksiyonu parametre olarak aldığı değeri onluk tabandan onaltılık tabana çevirir.
+
+
+Abs Fonksiyonu
+
+---abs() fonksiyonu parametre olarak aldığı değerin mutlak değerini verir.
+
+
+Round Fonksiyonu
+
+---round() fonksiyonu sayıları alta veya üste yuvarlamamızı sağlar.
+
+
+Max ve Min Fonksiyonları
+
+---max() & ve min() fonksiyonları aldıkları parametlerden en büyük ve en büyük değerini geri dönderir.
+
+
+Sum Fonksiyonu
+
+---sum() fonksiyonu aldığı parametleri toplar ve dönderir.
+
+
+Pow Fonksiyonu
+
+---pow() fonksiyonu aldığı ilk parametre taban, ikinci parametreyi üs olarak kabul edip üs alma işlemi yapar.
+
